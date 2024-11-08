@@ -1,0 +1,22 @@
+.cart-widget {
+  position: relative;
+  display: inline-block;
+}
+
+.cart {
+  width: 40px; /* Tamaño del icono del carrito */
+}
+
+.cart-counter {
+  position: absolute;
+  top: -5px; /* Ajusta la distancia vertical */
+  right: -5px; /* Ajusta la distancia horizontal */
+  background-color: red; /* Color de fondo */
+  color: white; /* Color del número */
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px; /* Tamaño de la fuente */
+  font-weight: bold; /* Asegúrate de que el número se vea bien */
+  min-width: 20px;
+  text-align: center;
+}
